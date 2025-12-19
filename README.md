@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# 🏎️ 레이싱 시뮬레이션 시스템
 
-## Project info
+## 프로젝트 소개
+레이싱 경기의 진행 과정을 단순화하여 구현한 웹 애플리케이션입니다.  
+차량이 트랙을 주행하며 랩 타임을 기록하고, 순위를 경쟁하는 과정을 시뮬레이션함으로써  
+레이싱 게임의 기본 구조와 로직을 이해하는 것을 목표로 했습니다.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 개발 기간
+2024.11 ~ 2024.12 (2개월)
 
-## How can I edit this code?
+## 주요 기능
+- 여러 차량(드라이버) 등록
+- 랩별 주행 시간 계산
+- 누적 시간 기반 순위 결정
+- 레이스 종료 후 최종 결과 표시
 
-There are several ways of editing your application.
+## 사용 기술
+- Frontend: HTML, CSS, JavaScript
+- Build Tool: Vite
+- Framework: React
+- Styling: Tailwind CSS
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 실행 방법
+```bash
+# 저장소 클론
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 프로젝트 폴더 이동
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# 의존성 설치
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 개발 서버 실행
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
